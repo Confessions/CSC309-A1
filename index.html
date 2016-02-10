@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+
+<head>
+	<link rel="stylesheet" href="style.css">
+	<title>CSC309 - Programming on the Web</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+	<!--creating header-->
+	<ul class="header_new">
+		<li class="newheader">
+			<a href="http://www.cs.toronto.edu/~mashiyat/csc309/index.htm">Course Home</a></li>
+		<li class="newheader">
+			<a href="https://piazza.com/class/ij76iue0b6i6wl">Piazza</a></li>
+		<li class="newheader">
+			<a href="https://markus.cdf.toronto.edu/csc309-2016-01/?locale=en">Markus</a>
+		</li>
+		<li class="newheader"><a href="#assign">Assignments</a></li>
+		<li class="newheader"><a href="#sylabus">Sylabus</a></li>
+		<li class="newheader"><a href="#anon">Anon Feedback</a></li>
+		<li class="newheader"><a href="http://www.cdf.toronto.edu/">CDF Labs</a></li>
+		<li class="newheader"><a href="#courseteam">Course Team</a></li>
+
+
+	</ul>
+
+	<!--used container to format better and make header touch the boarder-->
+	<div class="container">
+		<div class="header">
+		<title>CSC309</title>
+			<h1>CSC309: Programming on the Web <br> Winter 2016</h1>
+
+			<div class="header_links">
+				<nav>
+				|
+				<a href="http://www.cs.toronto.edu/~mashiyat/csc309/index.htm">Course Home</a> |
+				<a href="https://piazza.com/class/ij76iue0b6i6wl">Piazza</a> |
+				<a href="https://markus.cdf.toronto.edu/csc309-2016-01/?locale=en">Markus</a> |
+				<a href="#assign">Assignments</a> |
+				<a href="#sylabus">Sylabus</a> |
+				<a href="#anon">Anon Feedback</a> |
+				<a href="http://www.cdf.toronto.edu/">CDF Labs</a> |
+				<a href="#courseteam">Course Team</a> |
+				</nav>
+			</div>
+		</div>
+
+
+		<h2><u><b>General Information</b></u></h2>
+		<br>
+		<div class="sylabus">
+			Instructor: Mashiyat, Ahmed Shah <br>
+			Email: mashiyat@cs.toronto.edu <br>
+			Office Hours: Fridays, 4.30pm-6pm, Office: BA3289 (or by appointment) <br>
+			Course Website:<a href="http://www.cs.toronto.edu/~mashiyat/csc309/index.htm">Click Here</a> <br>
+			Discussion forum: <a href="https://piazza.com/class/ij76iue0b6i6wl">Click Here</a> <br>
+			Markus: <a href="https://markus.cdf.toronto.edu/csc309-2016-01/?locale=en">Click Here</a> (setup pending)<br>
+			<br>
+
+			<b><u>Section L0101/L2001</u></b><br>
+			Class: Mondays, Wednesdays, 10am-11am, Room: SS2118<br>
+			Tutorials: Fridays, 10am-11am, Room: SS2102 <br>
+			<br>
+
+			<b><u>Section L2501/L5101</u></b><br>
+			Class: Mondays, 6pm-8pm, Room: BA1170<br>
+			Tutorials: Mondays, 8pm-9pm, Room: BA1170<br>
+			<br>
+
+			<b><u>Overview</u></b><br>
+			This course provides an introduction to the technologies used for developing Web applications. We discuss technologies for static and dynamic content generation, including N-tier, MVC architectures, and mobile supported web development. We also cover general web design principles, security, and web performance. <br>
+			<br>
+
+			<b><u>Recommended Readings</u></b><br>
+			Web Programming Step by Step, by Marty Steep, Jessica Miller and Victoria Kirst
+			Standard documents from: http://www.w3.org, and http://nodejs.org/api/<br>
+			<br>
+
+			<!--adjust the position of the tag to fit the header better-->
+			<a name="assign"></a>
+			<b><u>Prerequisites</u></b><br>
+			Prerequisite of CSC343 is waived. Students who don't have CSC209 need to show experience in developing programs of significant size.<br>
+			<br>
+
+			<b><u>Marking</u></b><br>
+			Course grade will be determined by Four assignments and a final exam as follows:<br>
+			<br>
+
+			<!--creating table using div-->
+			<div class="Table">
+			    <div class="Heading">
+			        <div class="Cell">
+			            <p class="p1"></p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1"> </p class="p1">
+			        </div>
+			        <div class="Cell">
+			            <p class="p1">Weight %</p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1">Out</p class="p1">
+			        </div>
+			        <div class="Cell">
+			            <p class="p1">Due</p class="p1">
+			        </div>
+			    </div>
+			    <div class="Row">
+			        <div class="Cell">
+			            <p class="p1"><a href="http://www.cs.toronto.edu/~mashiyat/csc309/Assignments/CSC309-A1.pdf">A1 (HTML & CSS)</a></p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1">Individual</p class="p1">
+			        </div>
+			        <div class="Cell">
+			            <p class="p1">10</p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1">January 13</p class="p1">
+			        </div>
+			        <div class="Cell">
+			            <p class="p1">January 27</p class="p1">
+			        </div>
+			    </div>
+			    <div class="Row">
+			        <div class="Cell">
+			            <p class="p1">A2 (JavaScript & Canvas)</p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1">Group of 2</p class="p1">
+			        </div>
+			        <div class="Cell">
+			            <p class="p1">15</p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1">January 28</p class="p1">
+			        </div>
+			        <div class="Cell">
+			            <p class="p1">February 14</p class="p1">
+			        </div>
+			    </div>
+			     <div class="Row">
+			        <div class="Cell">
+			            <p class="p1">A3 (Web Service)</p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1">Individual</p class="p1">
+			        </div>
+			        <div class="Cell">
+			            <p class="p1">15</p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1">February 15</p class="p1">
+			        </div>
+			        <div class="Cell">
+			            <p class="p1">February 28</p class="p1">
+			        </div>
+			    </div>
+			     <div class="Row">
+			        <div class="Cell">
+			            <p class="p1">A4 (Large App) P1</p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1">Group of 4</p class="p1">
+			        </div>
+			        <div class="Cell">
+			            <p class="p1">5</p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1">February 29</p class="p1">
+			        </div>
+			        <div class="Cell">
+			            <p class="p1">March 9</p class="p1">
+			        </div>
+			    </div>
+			     <div class="Row">
+			        <div class="Cell">
+			            <p class="p1">A4 (Large App) P2</p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1">Group of 4</p class="p1">
+			        </div>
+			        <div class="Cell">
+			            <p class="p1">20</p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1"> </p class="p1">
+			        </div>
+			        <div class="Cell">
+			            <p class="p1">April 3</p class="p1">
+			        </div>
+			    </div>
+			     <div class="Row">
+			        <div class="Cell">
+			            <p class="p1">Final Exam</p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1"> </p class="p1">
+			        </div>
+			        <div class="Cell">
+			            <p class="p1">35 (Pass mark: above 40%)</p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1"> </p class="p1">
+			        </div>
+			        <div class="Cell">
+			            <p class="p1">TBA</p class="p1">
+			        </div>
+			    </div>
+			</div>
+
+		</div>
+
+		
+		<h2><u><b>Assignment/Project Policies</b></u></h2>
+		<br>
+		
+		<!--using ul and ol to make unordered list and ordered lists-->
+		<div class="assignments_schedule">
+			<ul class="a_list">
+				<li>Assignments will be posted on the course web page. Deadlines are fixed. No extension will be allowed.</li>
+				<br>
+				<li>All deliverables should be submitted electronically (through markus).</li>
+				<br>
+				<li>Assignments are due at <u>11.59 pm</u> on their due date. <b>Submit early to avoid last minute submission related problems.</b> Email submission will not be be accepted unless markus is down. Email submission at the eleventh hour will be considered as late submission.</li>
+				<br>
+
+			</ul>
+
+			<ol>
+				<li><b>Late coursework.</b> You can turn in your assignment up to 2 days late, but this will cost you <b>10%</b> of the maximum grade for every day you are late (i.e., an assignment turned <b>2 days late</b>  can get a maximum of 12/15). No assignment will be accepted after 2 days, and will be given a grade of 0. If you are struggling with an assignment, talk to the instructor or the TA's for help well before the deadline.</li>
+				<br>
+
+				<li><b>Re-marking</b>. You have up to 5 days from the time the marked assignment is available for hand-back to ask for a re-mark. <b>No assignment will be re-marked after this period.</b> Details will be posted on the course’s newsgroup. If you are still dissatisfied after talking to the TA, then email the instructor to set an appointment.</li>
+				<br>
+
+				<li><b>Communications.</b> Your best bet for getting questions answered quickly is to post to the course discussion group. If you think your question is not appropriate for the newsgroup, feel free to email the instructor. <u>Please make sure to include "CSC309" in the subject line of your email.</u> Finally, before you email the instructor, please check the newsgroup; your question may have already been answered.</li>
+				<br>
+				<!--adjust the position of the tag to fit the header better-->
+				<a name="sylabus"></a>
+				<li> <b>Cheating/Plagiarism.</b> The policy of your faculty or school will be in effect. You are encouraged to discuss problems with your classmates; however, all work that you submit must be your own. When you submit an assignment with your name on it, you are certifying that you have done the work on that assignment yourself. Remember that the penalty for cheating is always worse than handing in the assignment late.</li>
+			</ol>
+			
+			<!--creating class schedule list-->
+			<p><b>Class Schedule (Section <u>L0101/L2001</u>)</b></p>
+			<br>
+			<div class="Table">
+				<div class="Heading">
+			        <div class="Cell">
+			            <p class="p1">Week</p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1"> </p class="p1">
+			        </div>
+			        <div class="Cell">
+			            <p class="p1">L0101/L2001</p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1">Topic</p class="p1">
+			        </div>
+			    </div>
+			    <div class="Row">
+			        <div class="Cell">
+			            <p class="p1">1</p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1">Class</p class="p1">
+			        </div>
+			        <div class="Cell">
+			            <p class="p1">January 11,13</p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1"><a href="http://www.cs.toronto.edu/~mashiyat/csc309/Lectures/1.1-introduction.pdf">Introduction,</a> HTTP 
+			            <a href="http://www.cs.toronto.edu/~mashiyat/csc309/Lectures/1.2-the-internet-and-the-www.pdf">1,</a>
+			            <a href="http://www.cs.toronto.edu/~mashiyat/csc309/Lectures/2.1-simple-web-request.pdf">2,</a>
+			            <a href="http://www.cs.toronto.edu/~mashiyat/csc309/Lectures/2.2-html-basics.pdf">html,</a>
+			            <a href="http://www.cs.toronto.edu/~mashiyat/csc309/Lectures/2.3-css.pdf">Page Layout,</a>
+			             and
+			            <a href="http://www.cs.toronto.edu/~mashiyat/csc309/Lectures/2.4-css-page-layout.pdf">CSS,</a>
+			            <a href="http://www.w3schools.com/">w3schools,</a>
+			        	</p class="p1">
+			        </div>
+			    </div>
+
+			    <div class="Row">
+			        <div class="Cell">
+			            <p class="p1"> </p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1">Tutorial</p class="p1">
+			        </div>
+			        <div class="Cell">
+			            <p class="p1">January 15</p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1">
+			            	<a href="http://www.cs.toronto.edu/~mashiyat/csc309/Tutorial/1.%20Git.pdf">Git-Social Coding</a> 
+			        	</p class="p1">
+			        </div>
+			    </div>
+
+			    <div class="Row">
+			        <div class="Cell">
+			            <p class="p1">2</p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1">Class</p class="p1">
+			        </div>
+			        <div class="Cell">
+			            <p class="p1">January 18,20</p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1">
+			            	HTML5, CSS3 , Media Queries, DOM, Demo
+			        	</p class="p1">
+			        </div>
+			    </div>
+
+			     <div class="Row">
+			        <div class="Cell">
+			            <p class="p1"> </p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1">Tutorial</p class="p1">
+			        </div>
+			        <div class="Cell">
+			            <p class="p1">January 22</p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1">
+			            	Page Inspection, Less/Sass
+			        	</p class="p1">
+			        </div>
+			    </div>
+
+			     <div class="Row">
+			        <div class="Cell">
+			            <p class="p1">3</p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1">Class</p class="p1">
+			        </div>
+			        <div class="Cell">
+			            <p class="p1">January 25</p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1">
+			            	Sessions and Cookie, Javascript, HTML Canvas, examples
+			        	</p class="p1">
+			        </div>
+			    </div>
+
+			    <div class="Row">
+			        <div class="Cell">
+			            <p class="p1"> </p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1"> </p class="p1">
+			        </div>
+			        <div class="Cell">
+			            <p class="p1"><b>January 27</b></p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1">
+			            	<b>Assignment 1 Due, 11.59 PM</b>
+			        	</p class="p1">
+			        </div>
+			    </div>
+
+			    <div class="Row">
+			        <div class="Cell">
+			            <p class="p1"> </p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1">Tutorial</p class="p1">
+			        </div>
+			        <div class="Cell">
+			            <p class="p1">January 29</p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1">
+			            		Semantic UI/ Twitter Bootstrap
+			        	</p class="p1">
+			        </div>
+			    </div>
+
+			    <div class="Row">
+			        <div class="Cell">
+			            <p class="p1">4</p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1">Class</p class="p1">
+			        </div>
+			        <div class="Cell">
+			            <p class="p1">February 1, 3</p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1">
+			            	AJAX, JSON,  Web Architectures, REST API
+			        	</p class="p1">
+			        </div>
+			    </div>
+			    <div class="Row">
+			        <div class="Cell">
+			            <p class="p1"> </p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1">Tutorial</p class="p1">
+			        </div>
+			        <div class="Cell">
+			            <p class="p1">February 5</p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1">
+			            	JQuery
+			        	</p class="p1">
+			        </div>
+			    </div>
+			    <div class="Row">
+			        <div class="Cell">
+			            <p class="p1">5</p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1">Class</p class="p1">
+			        </div>
+			        <div class="Cell">
+			            <p class="p1">February 8, 10</p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1">
+			            	HTML Forms, Server-Side Programming, NodeJS
+			        	</p class="p1">
+			        </div>
+			    </div>
+
+			    <div class="Row">
+			        <div class="Cell">
+			            <p class="p1"> </p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1">Tutorial</p class="p1">
+			        </div>
+			        <div class="Cell">
+			            <p class="p1">February 12</p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1">
+			            	Nodejs-MongoDB Setup
+			        	</p class="p1">
+			        </div>
+			    </div>
+			    
+			    <div class="Row">
+			        <div class="Cell">
+			            <p class="p1"> </p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1"> </p class="p1">
+			        </div>
+			        <div class="Cell">
+			            <p class="p1"><b>February 14</b></p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1">
+			            <b>Assignment 2 Due, 11.59 PM</b>
+			        	</p class="p1">
+			        </div>
+			    </div>
+
+			    <div class="Row">
+			        <div class="Cell">
+			            <p class="p1">6</p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1">Class</p class="p1">
+			        </div>
+			        <div class="Cell">
+			            <p class="p1">February 15, 17</p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1">
+			            	No Class, Family Day
+			        	</p class="p1">
+			        </div>
+			    </div>
+			    
+			    <div class="Row">
+			        <div class="Cell">
+			            <p class="p1"> </p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1">Tutorial</p class="p1">
+			        </div>
+			        <div class="Cell">
+			            <p class="p1">February 26</p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1">
+			            	AngularJS
+			        	</p class="p1">
+			        </div>
+			    </div>
+			    
+			    <div class="Row">
+			        <div class="Cell">
+			            <p class="p1"> </p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1"> </p class="p1">
+			        </div>
+			        <div class="Cell">
+			            <p class="p1"><b> February 28 </b> </p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1">
+			            	<b>Assignment 3 Due, 11.59 PM</b>
+			        	</p class="p1">
+			        </div>
+			    </div>
+			    
+			    <div class="Row">
+			        <div class="Cell">
+			            <p class="p1">8</p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1">Class</p class="p1">
+			        </div>
+			        <div class="Cell">
+			            <p class="p1">Feb. 29, March 2</p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1">
+			            	MongoDB Schema Design, Databases
+			        	</p class="p1">
+			        </div>
+			    </div>
+			    
+			    <div class="Row">
+			        <div class="Cell">
+			            <p class="p1"> </p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1">Tutorial</p class="p1">
+			        </div>
+			        <div class="Cell">
+			            <p class="p1">March 4</p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1">
+			            	Testing with Mocha
+			        	</p class="p1">
+			        </div>
+			    </div>
+			    
+			    <div class="Row">
+			        <div class="Cell">
+			            <p class="p1">9</p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1">Class</p class="p1">
+			        </div>
+			        <div class="Cell">
+			            <p class="p1">March 7, 9</p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1">
+			            	Performance
+			        	</p class="p1">
+			        </div>
+			    </div>
+			    
+			    <div class="Row">
+			        <div class="Cell">
+			            <p class="p1"> </p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1"> </p class="p1">
+			        </div>
+			        <div class="Cell">
+			            <p class="p1"><b>March 9</b></p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1">
+			            	<b>Assignment 4 (Part 1) Due, 11.59 PM</b>
+			        	</p class="p1">
+			        </div>
+			    </div>
+			    
+			    <div class="Row">
+			        <div class="Cell">
+			            <p class="p1"> </p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1">Tutorial</p class="p1">
+			        </div>
+			        <div class="Cell">
+			            <p class="p1">March 11</p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1">
+			            	Performance
+			        	</p class="p1">
+			        </div>
+			    </div>
+			    
+			    <div class="Row">
+			        <div class="Cell">
+			            <p class="p1">10</p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1">Class</p class="p1">
+			        </div>
+			        <div class="Cell">
+			            <p class="p1">March 14, 16</p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1">
+			            	Web Security
+			        	</p class="p1">
+			        </div>
+			    </div>
+			    
+			    <div class="Row">
+			        <div class="Cell">
+			            <p class="p1"> </p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1">Tutorial</p class="p1">
+			        </div>
+			        <div class="Cell">
+			            <p class="p1">March 18</p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1">
+			            	Web Security
+			        	</p class="p1">
+			        </div>
+			    </div>
+			    
+			    <div class="Row">
+			        <div class="Cell">
+			            <p class="p1">11</p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1">Class</p class="p1">
+			        </div>
+			        <div class="Cell">
+			            <p class="p1">March 21, 23</p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1">
+			            	Cloud Computing, From Project to Product
+			        	</p class="p1">
+			        </div>
+			    </div>
+			    
+			    <div class="Row">
+			        <div class="Cell">
+			            <p class="p1"> </p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1">Tutorial</p class="p1">
+			        </div>
+			        <div class="Cell">
+			            <p class="p1">March 25</p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1">
+			            	Good Friday
+			        	</p class="p1">
+			        </div>
+			    </div>
+			    
+			    <div class="Row">
+			        <div class="Cell">
+			            <p class="p1">12</p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1">Class</p class="p1">
+			        </div>
+			        <div class="Cell">
+			            <p class="p1">March 28, 30</p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1">
+			            	Web Search Engine, Advanced Topics
+			        	</p class="p1">
+			        </div>
+			    </div>
+			    
+			    <div class="Row">
+			        <div class="Cell">
+			            <p class="p1"> </p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1">Tutorial</p class="p1">
+			        </div>
+			        <div class="Cell">
+			            <p class="p1">April 1</p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1">
+			            	Assignment 4 Problem Solving
+			        	</p class="p1">
+			        </div>
+			    </div>
+			    
+
+			    <div class="Row">
+			        <div class="Cell">
+			            <p class="p1"> </p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1"> </p class="p1">
+			        </div>
+			        <div class="Cell">
+			            <p class="p1"><b>April 3</b></p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1">
+			            	<b>Assignment 4 (Part 2)  Due, 11.59 PM</b>
+			        	</p class="p1">
+			        </div>
+			    </div>
+			    
+
+			    <div class="Row">
+			        <div class="Cell">
+			            <p class="p1">13</p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1">Class</p class="p1">
+			        </div>
+			        <div class="Cell">
+			            <p class="p1">April 4,6</p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1">
+			            	Review, informal Discussion, what's Next?
+			        	</p class="p1">
+			        </div>
+			    </div>
+			    
+
+			    <div class="Row">
+			        <div class="Cell">
+			            <p class="p1"> </p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1">Tutorial</p class="p1">
+			        </div>
+			        <div class="Cell">
+			            <p class="p1">April 8</p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1">
+			            	No Tutorial
+			        	</p class="p1">
+			        </div>
+			    </div>
+			    
+
+			    <div class="Row">
+			        <div class="Cell">
+			            <p class="p1"> </p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1"> </p class="p1">
+			        </div>
+			        <div class="Cell">
+			            <p class="p1">TBA</p class="p1">
+			        </div>
+			        <div class="Cell1">
+			            <p class="p1">
+			            	Final Exam
+			        	</p class="p1">
+			        </div>
+			    </div>
+			    
+
+
+
+
+			</div>
+
+		<a name= "courseteam"></a>
+		<u><b><h2>Course Team</b></u></h2>
+		<br>
+		<div class="course_team">
+			Zhicong Lu <a href="mailto:luzhc@cs.toronto.edu">luzhc@cs.toronto.edu</a> <br>
+			Ayazhan <a href="mailto:Zhakhanzh.ayazhan@gmail.com">Zhakhanzh.ayazhan@gmail.com</a> 
+			<br>
+
+			Muhammad Talha <a href="mailto:Malikmalik@ece.utoronto.ca">Malikmalik@ece.utoronto.ca</a> 
+			<br>
+
+			Ning LIN <a href="mailto:ning.lin@mail.utoronto.ca">ning.lin@mail.utoronto.ca</a>
+			<br>
+
+			Kyriakos <a href="mailto:kyriakos@cs.toronto.edu">Georgiou kyriakos@cs.toronto.edu</a>
+			<br>
+
+			Ihsan Etwaroo <a href="mailto:ihsan.etwaroo@mail.utoronto.ca">ihsan.etwaroo@mail.utoronto.ca</a>
+			<br>
+
+			Mohammad Hossein Danesh <a href="mailto:danesh@cs.toronto.edu">danesh@cs.toronto.edu</a>
+		</div>
+
+		<a name= "anon"></a>
+		<u><b><h2>Anonymous Feedback</b></u></h2>
+
+		<form>
+			Please provide your feedback to us. Your opinion matters. <br>
+			<input type="text" name="feedback"><br>
+			<input type="submit" value="Submit">
+			<br>
+		</form>
+
+		<footer>
+			<a href="http://web.cs.toronto.edu/">Faculty of Computer Science at UofT</a>
+			<u><b><h2>Site Design by Xun Jiang, copyright 2016</b></u></h2>
+		</footer>
+	</div>
+</body>
+</html>
